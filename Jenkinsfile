@@ -14,14 +14,14 @@ node {
             extensions: [], submoduleCfg: [],
             userRemoteConfigs: [[
                 name: 'hannatest',
-                url: 'https://github.com/VarunRaj94/hannatest.git/'
+                url: 'https://github.com/VarunRaj94/Alertpop-UP/'
             ]]
         ])
             sh "brew cask install fastlane"
      sh "export LC_ALL=en_US.UTF-8"
       sh "export LANG=en_US.UTF-8"   
     sh "bundle exec fastlane beta" 
-  //  sh "fastlane scan"   
+   sh "fastlane scan"   
 // sh "bundle exec fastlane gym"
 
     }
