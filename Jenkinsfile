@@ -24,7 +24,7 @@ node {
         
    
 // sh "bundle exec fastlane gym"
-        sh "bundle exec fastlane beta"   
+        sh "fastlane beta"   
 
     }
 }
