@@ -13,7 +13,7 @@ node {
             extensions: [], submoduleCfg: [],
             userRemoteConfigs: [[
                 name: 'hannatest',
-                url: 'https://github.com/VarunRaj94/Alertpop-UP/'
+                url: 'https://github.com/VarunRaj94/Alertpop-UP'
             ]]
         ])
       //      sh "brew cask install fastlane"
@@ -23,7 +23,7 @@ node {
         
    
   sh "fastlane init"
-      sh "fastlane gym"   
+      sh "fastlane beta"   
 
     }
 }
