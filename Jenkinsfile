@@ -24,7 +24,7 @@ node {
         
    
   sh "fastlane init"
-      sh "fastlane beta"   
+      sh "fastlane gym"   
 
     }
 }
