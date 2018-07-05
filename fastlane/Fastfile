@@ -17,6 +17,7 @@ default_platform(:ios)
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
+  export_xcargs: "-allowProvisioningUpdates"
   lane :beta do
     build_app(scheme: "AlertOnboarding")
 increment_build_number(
